@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<header>
+   <title>Pomodoro clock</title>
+   <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <script type="text/javascript" src="pomodoro.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+
+</header>
+<body>
+  
+<!-- third attempt
+<h1>Seconds: 0</h1>
+<button class="play">Play</button>
+<button class="pause">Pause</button>
+ -->
+<!--from second attempt <div id="countdown">00:00</div>
+<div id="pause">Pause</div>
+<div id="resume">Resume</div>
+ -->
+
+
+<main> 
+  <div class="break">
+	<h2>BREAK LENGTH
+	</h2>
+      <div>
+	<h3 class="timerAdjust breakMinus">—</h3>
+  <h3 id="breakLength" class="timerAdjust"></h3>
+  <h3 class="timerAdjust breakPlus">+</h3>
+      </div>
+
+</div>
+<div class="length">
+	<h2>SESSION LENGTH 
+	</h2>
+     <div>
+  <h3 class="timerAdjust sessionMinus">—</h3>
+  <h3 id="sessionLength" class="timerAdjust">`§</h3><!-- id="sessionLength" -->
+  <h3 class="timerAdjust sessionPlus">+</h3>
+      </div>
+
+</div>
+	   
+  <div class="circle">
+<h1>Session</h1>
+<p id="time"></p>
+</div>
+
+</body>
+</html>
